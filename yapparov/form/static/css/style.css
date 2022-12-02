@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background: url(../img/BG.png);
+    display: flex;
+  
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.mainmain{
+    
+}
+.form{
+    height: 969px;
+}
+.formm{
+    width: 585px;
+    height: 640px;
+
+    background: #FFFFFF;
+    
+    margin-top: 130px;
+    margin-left: 210px;
+
+}
+.title1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 76px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    /* /Car Repair/Secondary */
+
+    color: #02133C;
+}
+.formi{
+    width: 150px;
+    height: 12px;
+
+    /* /Neutral/Gray 4 */
+
+    background: #F5F5F5;
+
+    padding: 16px;
+    margin: 9px;
+  
+    margin-left: 78px;
+    margin-right: -48px;
+}
+.kika{
+    width: 470px;
+    height: 180px;
+
+    /* /Neutral/Gray 4 */
+
+    background: #F5F5F5;
+    margin-left: 50px;
+   
+    
+}
+input[type="text"] {
+
+    
+    /* /Default/16 • Body 1 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+   
+    align-items: center;
+    letter-spacing: 0.15px;
+    
+    /* /Neutral/Gray 2 */
+    
+    color: #959595;   
+    border: none;
+    
+    border-style: none;
+
+}
+.btn{
+    background: #C40B0B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 200% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    
+    /* /Neutral/White */
+    
+    color: #FFFFFF;
+    
+    border-radius: 2px;
+    border: none;
+    
+    border-style: none;
+    height: 50px;
+    margin-left: 375px;
+    margin-top: 179px;
+}
+.title{
+    width: 324px;
+    height: 72px;
+    
+    /* /Default/30 • H4 Heading */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    /* /Neutral/White */
+    
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.asd{
+    width: 324px;
+    height: 90px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 56px;
+    /* or 58% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* /Car Repair/Primary */
+    
+    color: #C40B0B;
+    margin-bottom: 50px;
+    
+}
+.subtitle{
+    width: 324px;
+    height: 26px;
+    
+    /* /Default/19 • H6 Heading */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height, or 137% */
+    
+    text-align: center;
+    
+    /* /Neutral/White */
+    
+    color: #FFFFFF;
+}
+.main2{
+    margin-top: 327px;
+    margin-left: 200px;
+}

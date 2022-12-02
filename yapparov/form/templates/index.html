@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainmain">
+        <div class="main">
+            <div class="form">
+                <form method="post" action="appointment/">
+                    {% csrf_token %}
+                <div class="formm">
+                    <h1 class="title1">Make an appointment</h1>
+                    <input type="text" name="name" id=""class="formi" placeholder="name"/> <input type="text" name="email" id="" class="formi" placeholder="email" /> <br>
+                    <input type="text" name="number" id=""class="formi" placeholder="Phone Number"/> <input type="text" name="service" id="" class="formi" placeholder="Select Service"/> <br>
+                    <input type="text" name="dad" id="" class="kika" placeholder="Tell us about the car needing service(s)"/>
+
+                    <button href="appointment" class="btn" >     Make an Appointment    →</button>
+
+                </div>
+                </form>
+            </div>
+            <div class="main2">
+                <div class="title">Maxime placeat facere possimus omnis </div>
+                <div class="asd">17k</div>
+                <div class="subtitle">customers served (and counting)</div>
+            </div>
+
+            
+        </div>
+    </div>
+    
+</body>
+</html>
